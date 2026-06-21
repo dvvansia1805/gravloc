@@ -1,0 +1,263 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>GRAVLOC | Satcom Engine - Space-Grade Procurement Intelligence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Load Inter or similar sans-serif for modern look -->
+<link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;family=Jetbrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style data-purpose="custom-typography">
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #050505;
+      color: #ffffff;
+    }
+    .font-condensed {
+      font-stretch: condensed;
+      letter-spacing: -0.02em;
+    }
+    .headline-large {
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 0.9;
+    }
+  </style>
+<style data-purpose="background-patterns">
+    /* Subtle grid/dot pattern as seen in images */
+    .bg-grid-dots {
+      background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px);
+      background-size: 30px 30px;
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.05) 0%, transparent 70%);
+    }
+  </style>
+<style data-purpose="theme-colors">
+    /* Defining specific gold/orange accent */
+    .text-gravloc-gold { color: #FBBF24; }
+    .bg-gravloc-gold { background-color: #FBBF24; }
+    .border-gravloc-gold { border-color: #FBBF24; }
+    .bg-card-dark { background-color: rgba(13, 13, 18, 0.6); }
+    .border-card { border-color: rgba(255, 255, 255, 0.05); }
+  </style>
+</head>
+<body class="bg-grid-dots">
+<!-- BEGIN: Navigation -->
+<nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/80 backdrop-blur-md" data-purpose="main-header">
+<div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+<div class="flex items-center space-x-8">
+<!-- Logo -->
+<div class="flex items-center space-x-2" data-purpose="logo-container">
+<div class="w-8 h-8 bg-gravloc-gold flex items-center justify-center rounded-sm"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqdr8YCw2I9uHlLOgKxxKTlRkE6DRVLzcIAeDtioMakeOeHmfajM42aSbw6KSJq_eiglekoT6eNVU9Lq4wHROlvQAXvPgMCiSWO6fqKkDQez2VGeBm6KssBohlTZm7Mbjhb5RaCW44rq-OW1fTYAFeo6F8Ilo0fUkz61Cw5R-UDHT_az-OHa6H-xqgusc7e3bUg4N07hNNypIaWmqPyU-c-fwhRRP3kY1Z26tPXfvTJBAKdb8FFj1KiGAIkNXuO6TfBV7PP9WY1n7J" alt="GRAVLOC Logo" class="w-full h-full object-cover rounded-sm"></div>
+<div class="flex items-baseline space-x-2">
+<span class="text-xl font-black tracking-tighter uppercase">GRAVLOC</span>
+
+</div>
+</div>
+<!-- Desktop Nav Links -->
+<div class="hidden lg:flex items-center space-x-6">
+<a class="text-[11px] font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors" href="#">Home</a>
+<a class="text-[11px] font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors" href="#">platform</a>
+<a class="text-[11px] font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors" href="#">supplier</a>
+<a class="text-[11px] font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors" href="#">explore catalouge</a>
+</div>
+</div>
+<div class="flex items-center space-x-6">
+<a class="text-[11px] font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors" href="#">Sign In</a>
+<button class="px-5 py-2 border border-gravloc-gold text-gravloc-gold text-[11px] font-bold uppercase tracking-widest hover:bg-gravloc-gold hover:text-black transition-all flex items-center group">
+          Get Access <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- END: Navigation -->
+<!-- BEGIN: Hero Section -->
+<main class="relative pt-32 pb-20 hero-glow overflow-hidden">
+<div class="max-w-5xl mx-auto px-4 text-center">
+<!-- Status Badge -->
+<div class="inline-flex items-center space-x-2 bg-black border border-gravloc-gold/30 rounded-full px-4 py-1.5 mb-10" data-purpose="status-badge">
+<span class="w-2 h-2 rounded-full bg-gravloc-gold animate-pulse"></span>
+<span class="text-[10px] font-bold text-gravloc-gold uppercase tracking-[0.2em]">Platform Live — 240,847 Components Indexed</span>
+</div>
+<!-- Hero Title -->
+<h1 class="headline-large text-6xl md:text-8xl mb-8 font-condensed">
+<span class="text-white block">Space-Grade</span>
+<span class="text-gravloc-gold block">Procurement</span>
+<span class="text-white block">Intelligence</span>
+</h1>
+<!-- Subtext -->
+<p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed mb-12">
+        Discover, compare, and verify mission-critical hardware from trusted global suppliers. The procurement engine for the next frontier.
+      </p>
+<!-- CTA Buttons -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-gravloc-gold text-black font-black text-xs uppercase tracking-widest px-8 py-4 flex items-center justify-center hover:brightness-110 transition-all">
+<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          Browse Components Free <span class="ml-2">→</span>
+</button>
+
+</div>
+</div>
+</main>
+<!-- END: Hero Section -->
+<!-- BEGIN: Stats Bar -->
+<section class="border-y border-white/5 py-12 bg-black/40">
+<div class="max-w-7xl mx-auto px-4">
+<!-- Compliance Labels -->
+
+<!-- Large Metrics -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center group border-r border-white/5 last:border-r-0">
+<div class="text-4xl font-black text-gravloc-gold mb-2 font-condensed">80%</div>
+<div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Faster Sourcing</div>
+</div>
+<div class="text-center group border-r border-white/5 last:border-r-0">
+<div class="text-4xl font-black text-gravloc-gold mb-2 font-condensed">5000+</div>
+<div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">components</div>
+</div>
+<div class="text-center group border-r border-white/5 last:border-r-0">
+<div class="text-4xl font-black text-gravloc-gold mb-2 font-condensed">20+</div>
+<div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">founding suppliers</div>
+</div>
+<div class="text-center group">
+<div class="text-4xl font-black text-gravloc-gold mb-2 font-condensed">8+</div>
+<div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">spec filters</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Stats Bar -->
+<!-- BEGIN: Platform Capabilities -->
+<section class="py-24 bg-black">
+<div class="max-w-7xl mx-auto px-4">
+<div class="flex items-center justify-center space-x-4 mb-16">
+<div class="h-px w-8 bg-gravloc-gold"></div>
+<h2 class="text-[11px] font-bold text-gravloc-gold uppercase tracking-[0.4em]">Platform Capabilities</h2>
+<div class="h-px w-8 bg-gravloc-gold"></div>
+</div>
+<div class="text-center mb-16">
+<h3 class="text-5xl md:text-6xl font-black font-condensed uppercase tracking-tight">Built For <br> Mission criticality</h3>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-6 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h4 class="text-lg font-bold mb-4">Space-Native Search</h4>
+<p class="leading-relaxed text-white text-base">Search by part number, radiation tolerance (TID), or heritage mission history.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-6 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+</div>
+<h4 class="text-lg font-bold mb-4">Mission Context Filters</h4>
+<p class="text-gray-500 text-sm leading-relaxed"></p><div><div class="">Filter by Orbit Type (LEO, GEO), Mass Range, and SWaP-C constraints.</div></div><p class=""></p>
+</div>
+<!-- Card 3 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+</div>
+
+<h4 class="text-lg font-bold mb-4">Side-by-Side Comparision</h4>
+<p class="text-white text-base leading-relaxed">Analyze technical specifications across multiple vendors in a unified view.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-6 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+</div>
+<h4 class="text-lg font-bold mb-4">Verified Supplier Profile</h4>
+<p class="text-gray-500 text-sm leading-relaxed"></p><div class="">Access AS9100 certified vendors with vetted flight heritage and ITAR status.</div><p class=""></p>
+</div>
+<!-- Card 5 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-6 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+</div>
+<h4 class="text-lg font-bold mb-4">Secure Document Vault</h4>
+<p class="text-gray-500 text-sm leading-relaxed"></p><div class="">Centralized access to data sheets, CAD models, and compliance certificates.</div><p class=""></p>
+</div>
+<!-- Card 6 -->
+<div class="bg-card-dark border border-card p-10 hover:border-gravloc-gold/30 transition-all duration-300 group">
+<div class="w-10 h-10 border border-gravloc-gold/50 rounded flex items-center justify-center mb-6 transition-all duration-300 group-hover:bg-gravloc-gold">
+<svg class="w-5 h-5 text-gravloc-gold transition-colors duration-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+</div>
+<h4 class="text-lg font-bold mb-4">Structured RFQ Workflow</h4>
+<p class="text-white text-base leading-relaxed">Standardized requests ensure faster quotes and accurate technical compliance.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Platform Capabilities -->
+<!-- BEGIN: Access Section -->
+<section class="py-24 bg-black flex justify-center px-4">
+<div class="max-w-4xl w-full bg-[#0a0a0f] border border-white/5 p-12 text-center rounded-sm relative overflow-hidden" data-purpose="access-locked-state">
+<!-- Glow effect -->
+<div class="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none"></div>
+<div class="relative z-10">
+
+<h2 class="text-5xl font-black font-condensed uppercase mb-6 tracking-tight">Cleared For launch</h2>
+<p class="text-gray-500 text-base max-w-xl mx-auto mb-10 leading-relaxed">
+          Components are always visible. Sign up for a verified account to initiate RFQs, run AI competitor analysis, and contact suppliers directly.
+        </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-gravloc-gold text-black font-black text-xs uppercase tracking-widest px-8 py-4 hover:brightness-110 transition-all">
+            Create Free Account
+          </button>
+<button class="w-full sm:w-auto bg-transparent border border-white/10 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 flex items-center justify-center hover:bg-white/5 transition-all">
+<svg class="w-4 h-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Browse Components
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Access Section -->
+<!-- BEGIN: Footer -->
+<footer class="border-t border-white/5 py-12 bg-[#050505]">
+<div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+<!-- Footer Logo and Version -->
+<div class="flex items-center space-x-4">
+<div class="flex items-center space-x-2">
+<div class="w-6 h-6 bg-gravloc-gold flex items-center justify-center rounded-sm"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqdr8YCw2I9uHlLOgKxxKTlRkE6DRVLzcIAeDtioMakeOeHmfajM42aSbw6KSJq_eiglekoT6eNVU9Lq4wHROlvQAXvPgMCiSWO6fqKkDQez2VGeBm6KssBohlTZm7Mbjhb5RaCW44rq-OW1fTYAFeo6F8Ilo0fUkz61Cw5R-UDHT_az-OHa6H-xqgusc7e3bUg4N07hNNypIaWmqPyU-c-fwhRRP3kY1Z26tPXfvTJBAKdb8FFj1KiGAIkNXuO6TfBV7PP9WY1n7J" alt="GRAVLOC Logo" class="w-full h-full object-cover rounded-sm"></div>
+<span class="text-lg font-black uppercase tracking-tighter">GRAVLOC</span>
+</div>
+<span class="text-[10px] font-mono text-gray-600">v2.4.1</span>
+</div>
+<!-- Footer Links -->
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-[10px] font-bold text-gray-500 hover:text-white uppercase tracking-widest transition-colors" href="#">Privacy</a>
+<a class="text-[10px] font-bold text-gray-500 hover:text-white uppercase tracking-widest transition-colors" href="#">Export Policy</a>
+<a class="text-[10px] font-bold text-gray-500 hover:text-white uppercase tracking-widest transition-colors" href="#">Terms</a>
+<a class="text-[10px] font-bold text-gray-500 hover:text-white uppercase tracking-widest transition-colors" href="#">Contact</a>
+</div>
+<!-- Copyright -->
+<div class="text-[10px] font-bold text-gray-700 uppercase tracking-widest">
+        © 2024 GRAVLOC TECHNOLOGIES
+      </div>
+</div>
+</footer>
+<!-- END: Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
